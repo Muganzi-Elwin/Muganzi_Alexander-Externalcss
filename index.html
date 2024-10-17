@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,25 +9,32 @@
     <style>
         /* Internal CSS */
         body {
-            background-color: #eaeaea;
+            background-color: rgb(234, 234, 234);
             font-family: 'Verdana', sans-serif;
+            /*Note: It's always a best practice to include a list of values for this property,
+             starting with the font you want to be used most and ending with a generic font family as a fallback,
+              e.g. font-family: "Times New Roman", serif; @Alexander Muganzi Elwin*/
         }
-        .welcome-message {
+        
+        /*  Class selector -> */ .welcome-message {  
             text-align: center;
             margin: 50px 0;
-            color: #333;
+            color: #333333;
         }
     </style>
 </head>
+
 <body>
     <h1 class="welcome-message">Welcome to My Personal Website!</h1>
-    <p style="text-align: center;">
-        Explore my academic journey, goals, and contact information.
+    <p style="text-align: center;"> 
+        Explore my academic journey, goals, and contact information. 
     </p>
+    
     <nav style="text-align: center;">
         <a href="profile.html">Profile Page</a> |
         <a href="goals.html">Academic Goals/Achievements</a> |
         <a href="contact.html">Contact Page</a>
     </nav>
 </body>
+
 </html>
